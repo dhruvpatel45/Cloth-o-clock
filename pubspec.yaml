@@ -1,0 +1,126 @@
+name: hello
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_flutter: ^4.1.0
+  url_launcher: ^6.1.14
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.24.2
+  flutter_launcher_icons: ^0.13.1
+  google_mlkit_text_recognition: ^0.8.0
+  http: ^1.3.0
+  mysql_client: ^0.0.27
+  maps_launcher: ^2.0.0
+  image_picker: ^1.1.2
+  location: ^8.0.0
+  geocoding: ^2.1.0
+  geolocator: ^10.1.0
+  permission_handler: ^11.3.1
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  positioned_tap_detector_2: ^1.0.4
+  font_awesome_flutter: ^10.8.0
+  flutter_rating_bar: ^4.0.0
+  path_provider: ^2.1.2  # Added path_provider to fix your error
+  dotted_line: ^3.1.0  # Ensure this is included
+  shared_preferences: ^2.5.2
+  intl: ^0.18.0
+  provider: ^6.0.5
+  flutter_feather_icons: ^2.0.0+1
+  image: ^4.5.4
+  photo_view: ^0.14.0
+  cached_network_image: ^3.2.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/clothoclock.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/clothoclock.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/google_logo3.png
+    - assets/info3.png
+    - assets/image2.png
+    - assets/rent.png
+    - assets/rent2.png
+    - assets/image.png
+    - assets/buy_image1.png
+    - assets/buy_image2.png
+    - assets/buy_image3.png
+    - assets/buy_image4.png
+    - assets/image3.png
+    - assets/image4.png
+    - assets/wedding_ware.png
+    - assets/western_dress.png
+    - assets/party_ware.png
+    - assets/office_ware.png
+    - assets/festive_clothes.png
+    - assets/group_image.jpg
+    - assets/cloth.png
+    - assets/banner1.jpg
+    - assets/banner2.jpg
+    - assets/banner4.jpg
+    - assets/banner5.jpg
+    - assets/sell.png
+    - assets/tickmark.png
+    - assets/image 70.png
+    - assets/image 68.png
+    - assets/image 56.png
+    - assets/Clock.png
+    - assets/image 44.png
+    - assets/image 37.png
+    - assets/Kalidaar Kurta 1.png
+    - assets/image 65.png
+    - assets/image 66.png
+    - assets/blacksuit.png
+    - assets/weddingdress.png
+    - assets/greenkurta.png
+    - assets/bluehoodie.png
+    - assets/kidsdress.png
+    - assets/whitesherwani.png
+    - assets/brownjacket.png
+    - assets/blackdress.png
+    - assets/bluedress.png
+    - assets/redsuit.png
+    - assets/tealhoodie.png
+    - assets/partydress.jpg
+    - assets/indian.jpg
+    - assets/chaniyacholi.jpg
+    - assets/kurta.jpg
+    - assets/festive/festive1.jpg
+    - assets/festive/festive2.jpg
+    - assets/festive/festive3.jpg
+    - assets/festive/festive4.jpg
+    - assets/office/office1.jpg
+    - assets/office/office2.jpg
+    - assets/office/office3.jpg
+    - assets/office/office4.jpg
+    - assets/party/party1.jpg
+    - assets/party/party2.jpg
+    - assets/party/party3.jpg
+    - assets/party/party4.jpg
+    - assets/wedding/wedding1.jpg
+    - assets/wedding/wedding2.jpg
+    - assets/wedding/wedding3.jpg
+    - assets/wedding/wedding4.jpg
+    - assets/western/western1.jpg
+    - assets/western/western2.jpg
+    - assets/western/western3.jpg
+    - assets/western/western4.jpg
